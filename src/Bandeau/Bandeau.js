@@ -8,9 +8,9 @@ class Bandeau extends Component {
       <div className="Bandeau">
         <div className='bandeauImage'>
           <div className='bandeauPresentation'>
-            <h3 className='kickass-h3'>Titre du projet</h3>
-            <h2 className='kickass-h2'>Description du projet : ce projet est vraiment super génial c'est pour ça qu'on l'a mis en avant</h2>
-            <p className='kickass-p'>Plus d'infos...</p>
+            <p className='kickass-p-titre couleur-font-bandeau'>Médiacités</p>
+            <p className='kickass-p-bandeau couleur-font-bandeau'>Mediacités est un nouveau journal en ligne d’investigation et de décryptage, indépendant et « multi-villes ». Cela fait beaucoup ? Allons-y mot par mot…</p>
+            <p className='kickass-p-bandeau couleur-font-bandeau kickass-infos'><a href="#">Plus d'infos...</a></p>
           </div>
         </div>
       </div>
