@@ -11,13 +11,19 @@
 }
 
 .kickass-footer-menu ul li{
-  padding: 0 0 5px 30px;
+  padding: 0 0 5px 20px;
+  cursor: pointer;
+  font-weight: 300;
 }
 
 .kickass-footer-menu p{
   color:#FFFFFF;
   font-size: 1.2rem;
   padding:0 0 5px 0;
+}
+
+.kickass-footer-btn{
+  /*align-items: center;*/
 }
 
 .kickass-footer-border{
@@ -30,8 +36,33 @@
   justify-content: space-between;
 }
 
+.kickass-footer-logo i{
+  padding:2px 3px 0 0;
+  font-size: 1.5rem;
+}
+
+.kickass-footer-logo{
+  line-height: 26px;
+  text-align: left;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+
+.kickass-footer-social i{
+  margin:0 20px;
+  font-size:1.6rem;
+  cursor: pointer;
+}
+
+.kickass-footer-social i:hover, .kickass-footer-menu ul li:hover{
+  color:#39A6FF;
+}
+
 .kickass-footer-language{
-  border:1px solid #000000;
+  border:1px solid #FFFFFF;
   padding:10px;
-  width:150px;
+  width:80px;
 }
