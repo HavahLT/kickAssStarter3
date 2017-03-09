@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   /*padding:30px 10px;*/
-  border-bottom:3px solid #39A6FF;
+  border-bottom:6px solid #39A6FF;
 }
 /*
 .kickass-menu div i{
@@ -18,7 +18,7 @@
 }*/
 
 .kickass-logo{
-  padding:20px 0;
+  padding:20px 10px;
 }
 
 .kickass-logo i{
@@ -31,23 +31,35 @@
 
 .kickass-menu-btn i{
   font-size: 1.5rem;
-  padding:0 12px 0 4px;
+  padding:0px 20px 0px 0px;
+}
+
+.kickass-search{
+  padding:28px 0;
 }
 
 .kickass-search i{
-  font-size:2rem;
+  font-size:1.6rem;
+  padding: 0 5px;
 }
 
-.kickass-sign{
+.kickass-search input{
+  width: 20vw;
+  height: 25px;
+}
+
+.kickass-sign, .kickass-login{
   background: #FFFFFF;
   border:none;
-  padding:20px 5px;
+  padding:35px 10px 0px 10px;
   color:#000000;
 }
 
 .kickass-login{
+  border-left: 1px solid #C3C1C4;
+}
+
+.kickass-login:hover{
   background: #39A6FF;
-  border:none;
-  padding:20px 5px;
   color:#FFFFFF;
 }
