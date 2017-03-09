@@ -1,0 +1,37 @@
+.kickass-footer{
+  background:#292828;
+  color:#FFFFFF;
+  min-height:70vh;
+  border-top:7px solid #39A6FF;
+  padding:50px 0 0 0;
+}
+
+.kickass-footer-menu{
+  padding:0 50px;
+}
+
+.kickass-footer-menu ul li{
+  padding: 0 0 5px 30px;
+}
+
+.kickass-footer-menu p{
+  color:#FFFFFF;
+  font-size: 1.2rem;
+  padding:0 0 5px 0;
+}
+
+.kickass-footer-border{
+  border-top:1px solid #C3C1C4;
+  margin-top:80px;
+  margin-bottom:50px;
+}
+
+.kickass-footer-bottom{
+  justify-content: space-between;
+}
+
+.kickass-footer-language{
+  border:1px solid #000000;
+  padding:10px;
+  width:150px;
+}
