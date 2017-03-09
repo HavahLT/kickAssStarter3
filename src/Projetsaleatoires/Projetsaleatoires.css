@@ -1,0 +1,43 @@
+.Projetsaleatoires {
+    padding-top: 8vh;
+    background-position: center;
+    background-size: cover;
+    height:500px;;
+    width:100%;
+  }
+.container-card {
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+
+}
+.kickass-card {
+  height:310px;
+  width:22%;
+  z-index: 1;
+  border-radius:3px;
+  border: 0.1em solid grey;
+  margin-top: 8vh;
+}
+
+.miniature-projet {
+  width:100%;
+  border-radius: 2px;
+  margin-bottom: 2vh;
+
+}
+
+.container-detail-projet {
+  margin-top: 3vh;
+  display:flex;
+  align-items:center;
+}
+
+.positionnement-element-card {
+  padding-left:2vh;
+}
+
+.espace-icone {
+  margin-left: 2vh;
+}
