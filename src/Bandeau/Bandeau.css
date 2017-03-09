@@ -2,13 +2,13 @@
   background-image: url(imageBandeau.jpg);
   background-position: center;
   background-size: cover;
-  height:80vh;
+  height:500px;
   width:100%;
   display: flex;
 }
 
 .bandeauPresentation {
-  height:20vh;
+  height:130px;
   width:40%;
   z-index: 1;
   border-radius:3px;
