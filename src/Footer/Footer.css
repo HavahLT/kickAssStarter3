@@ -23,8 +23,13 @@
 }
 
 .kickass-footer-btn{
-  /*align-items: center;*/
+  padding:10px;
 }
+
+.kickass-footer-btn:hover{
+  padding:9px 10px;
+}
+
 
 .kickass-footer-border{
   border-top:1px solid #C3C1C4;
@@ -76,6 +81,11 @@
   .kickass-footer-btn-resp{
     display: flex;
     justify-content: center;
+    padding-top:30px;
+  }
+  .kickass-footer-border{
+    margin-top:40px;
+    margin-bottom:35px;
   }
   .kickass-footer-logo{
     justify-content: center;
