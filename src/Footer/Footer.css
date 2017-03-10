@@ -42,6 +42,7 @@
 }
 
 .kickass-footer-logo{
+  display: flex;
   line-height: 26px;
   text-align: left;
   font-size: 1.5rem;
@@ -57,7 +58,7 @@
   cursor: pointer;
 }
 
-.kickass-footer-social i:hover, .kickass-footer-menu ul li:hover{
+.kickass-footer-social i:hover, .kickass-footer-menu ul li:hover, .kickass-footer-lang-resp div:hover{
   color:#39A6FF;
 }
 
@@ -65,4 +66,34 @@
   border:1px solid #FFFFFF;
   padding:10px;
   width:80px;
+}
+
+
+@media all and (max-device-width: 920px)
+
+{
+
+  .kickass-footer-btn-resp{
+    display: flex;
+    justify-content: center;
+  }
+  .kickass-footer-logo{
+    justify-content: center;
+    padding:0 0 50px 0;
+  }
+  .kickass-footer-bottom{
+    justify-content: center;
+  }
+  .kickass-footer-social{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 50px 0;
+  }
+  .kickass-footer-lang-resp{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 50px 0;
+  }
+
+
 }

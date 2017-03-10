@@ -53,7 +53,7 @@ class Footer extends Component {
     </div>
 
 
-    <div>
+    <div className="kickass-footer-btn-resp">
       <button className="kickass-btn kickass-footer-btn" type="button" name="button"><i className="fa fa-plus" aria-hidden="true"></i>Créer un projet</button>
     </div>
 
@@ -63,7 +63,7 @@ class Footer extends Component {
 
   <div className="container">
     <div className="kickass-flex kickass-footer-bottom">
-      <div className="kickass-flex kickass-footer-logo">
+      <div className="kickass-footer-logo">
         <i className="fa fa-hourglass-half" aria-hidden="true"></i>
         <h1>KickAssStarter</h1>
       </div>
@@ -74,7 +74,7 @@ class Footer extends Component {
         <i className="fa fa-linkedin" aria-hidden="true"></i>
         <i className="fa fa-play" aria-hidden="true"></i>
       </div>
-      <div>
+      <div className="kickass-footer-lang-resp">
         <div className="kickass-footer-language">Français <i className="fa fa-eur" aria-hidden="true"></i>
         </div>
       </div>
