@@ -17,6 +17,10 @@ class Footer extends Component {
         <li>Projets Records</li>
         <li>Presse</li>
         <li>Nous recrutons !</li>
+        <li>Nos métiers</li>
+        <li>Gallerie photos</li>
+        <li>Nos locaux</li>
+
       </ul>
     </div>
 
@@ -28,6 +32,9 @@ class Footer extends Component {
         <li>Conditions d'utilisation</li>
         <li>Confidentialité</li>
         <li>Contact</li>
+        <li>Les tutos de KickAsss</li>
+        <li>Foire aux questions</li>
+        <li>Chat</li>
       </ul>
     </div>
 
@@ -36,12 +43,12 @@ class Footer extends Component {
       <p className="kickass-p-bold">Pour aller plus loin</p>
         <ul>
           <li>Blog</li>
-          <li>Inspire</li>
+          <li>Inspirations</li>
           <li>Formations</li>
-          <li>Kickoff</li>
+          <li>KickAsss</li>
           <li>Newsletter</li>
-          <li>Partenariats</li>
-          <li>Boutique Ulule</li>
+          <li>Nos partenaires</li>
+          <li>Boutique KickAssStarter</li>
         </ul>
     </div>
 
