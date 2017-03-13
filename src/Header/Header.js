@@ -30,6 +30,7 @@ class Header extends Component {
     render() {
         return (
             <div className="Header">
+              <div className="kickass-menu-fixed">
                 <header className="kickass-flex kickass-menu">
 
                     <div className="kickass-logo" id="k-logo">
@@ -54,7 +55,7 @@ class Header extends Component {
                     </div>
 
                 </header>
-
+</div>
                 {/* modal creer compte */}
 
                 <div className="kick-compte-container" style={{
