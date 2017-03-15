@@ -42,8 +42,11 @@ class Header extends Component {
                             <i className="fa fa-plus" aria-hidden="true"></i>Créer un projet</button>
                     </div>
                     <div className="kickass-search" id="k-search">
-                        <i className="fa fa-search fa-flip-horizontal" aria-hidden="true"></i>
-                        <input type="text"></input>
+                        <form>
+                          <i className="fa fa-search fa-flip-horizontal" aria-hidden="true"></i>
+                          <input type="text"></input>
+                          <button className="btn-go" type="submit">Go</button>
+                      </form>
                     </div>
                     <div className="kickass-flex kickass-sign-login" id="k-log">
                         <div className="kickass-sign" onClick={this.handleClick}>
@@ -65,7 +68,7 @@ class Header extends Component {
                 }}>
                     <div className="user-compte-form">
                         <div className="user-compte-titre">
-                            <h2 >Créer votre compte</h2>
+                            <h3 className="kickass-h3">Création de compte</h3>
                         </div>
 
                         <form methode="post" action="">
@@ -89,15 +92,19 @@ class Header extends Component {
                         ? 'flex'
                         : 'none'
                 }}>
-                    <div className="user-connect-form">
-                        <h2 className="user-connect-titre">Connectez vous</h2>
+                <div className="user-connect-form">
+                      <div className="user-compte-titre">
+                        <h3 className="kickass-h3">Connexion</h3>
+                      </div>
 
                         <form methode="post" action="">
                             <input className="user-connect-input" type="mail" placeholder="Email"></input>
                             <input className="user-connect-input" type="password" placeholder="Mot de passe"></input>
+                            <p className="f-pwd">Mot de passe oublié ?</p>
                             <button className="user-compte-submit">
                                 <span className="user-compte-submit-span">Valider</span>
                             </button>
+                            <p className="p-inscription">Pas encore de compte ? Inscrivez-vous !</p>
                         </form>
 
                     </div>

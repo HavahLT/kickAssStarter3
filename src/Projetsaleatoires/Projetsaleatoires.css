@@ -1,8 +1,8 @@
 .Projetsaleatoires {
-    padding-top: 8vh;
+    padding-top: 20px;
     background-position: center;
     background-size: cover;
-    height:500px;;
+    min-height: 500px;
     width:100%;
   }
 .container-card {
@@ -13,31 +13,72 @@
 
 }
 .kickass-card {
-  height:310px;
-  width:22%;
   z-index: 1;
   border-radius:3px;
-  border: 0.1em solid grey;
-  margin-top: 8vh;
+  height: 340px;
+  width: 220px;
+  border: 1px solid #C3C1C4;
+  margin-top: 20px;
+  padding-bottom: 7px;
 }
 
 .miniature-projet {
   width:100%;
   border-radius: 2px;
-  margin-bottom: 2vh;
-
+  margin-bottom: 10px;
 }
 
 .container-detail-projet {
-  margin-top: 3vh;
+  margin-top: 30px;
   display:flex;
   align-items:center;
 }
 
 .positionnement-element-card {
-  padding-left:2vh;
+  padding-left:10px;
 }
 
 .espace-icone {
-  margin-left: 2vh;
+  margin-left: 10px;
+}
+
+.positionnement-bouton{
+  width:100%;
+  margin-top: 40px;
+  text-align: right;
+}
+.bouton-style {
+  font-family:Roboto,sans-serif;
+  font-size:1em;
+  background-color: #FFFFFF;
+  width: 200px;
+  height: 55px;
+  margin: 0 0 40px 0;
+}
+
+
+@media all and (max-device-width: 920px) {
+
+  .Projetsaleatoires {
+    padding-top: 20px;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    margin:auto;
+  }
+
+  .container-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kickass-card {
+    align-items: center;
+  }
+
+  .positionnement-bouton{
+    margin: 45px auto 10px auto;
+    text-align: center;
+  }
+
 }

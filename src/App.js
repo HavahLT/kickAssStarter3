@@ -8,6 +8,7 @@ import Home from './Home';
 //Routes
 class App extends React.Component {
 
+
  render() {
      return (
        <Router history={browserHistory}>
@@ -22,6 +23,7 @@ class App extends React.Component {
        </Router>
    );
  }
+
 }
 
 export default App;

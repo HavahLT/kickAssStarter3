@@ -98,6 +98,9 @@ class Projetsaleatoires extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="positionnement-bouton">
+                <button className="bouton-style">Tous les projets</button>
+              </div>
             </div>
         );
     }
