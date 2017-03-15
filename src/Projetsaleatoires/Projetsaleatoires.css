@@ -2,7 +2,7 @@
     padding-top: 8vh;
     background-position: center;
     background-size: cover;
-    height:500px;;
+    min-height: 500px;
     width:100%;
   }
 .container-card {
@@ -17,7 +17,7 @@
   width:22%;
   z-index: 1;
   border-radius:3px;
-  border: 0.1em solid grey;
+  border: 3px solid black;
   margin-top: 8vh;
   padding-bottom:7px;
 }
@@ -53,5 +53,44 @@
   font-family:Roboto,sans-serif;
   font-size:1em;
   background-color: #FFFFFF;
+}
 
+@media all and (max-device-width: 920px) {
+
+.Projetsaleatoires {
+  padding-top: 8vh;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+  margin:auto;
+}
+
+.container-card {
+  flex-direction: column;
+  align-items: center;
+}
+
+.kickass-card {
+  align-items: center;
+  height:310px;
+  width:75%;
+  border-radius:3px;
+  border: 0.1em solid grey;
+  padding-bottom:40px;
+  margin-bottom: 8px;
+}
+
+.positionnement-bouton{
+  margin: 45px auto 10px auto;
+  text-align: center;
+}
+
+.bouton-style {
+  margin:0 auto;
+  width: 35%;
+  height:50px;
+  font-family:Roboto,sans-serif;
+  font-size:1em;
+  background-color: #FFFFFF;
+}
 }

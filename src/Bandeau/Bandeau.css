@@ -52,3 +52,20 @@ text-decoration: none;
 
 a:link {color: #FFFFFF;}
 a:hover {color:rgb(250,166,230) ;}
+
+@media all and (max-device-width: 920px) {
+
+  .bandeauPresentation {
+    width:100%;
+    margin-left: 0vh;
+    padding-bottom: 2.5vh;
+    padding-top:2.5vh;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+
+  .bandeauImage {
+    height :auto;
+  }
+}
