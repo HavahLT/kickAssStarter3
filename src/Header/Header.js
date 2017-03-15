@@ -68,7 +68,7 @@ class Header extends Component {
                 }}>
                     <div className="user-compte-form">
                         <div className="user-compte-titre">
-                            <h3 className="kickass-h3">Créer votre compte</h3>
+                            <h3 className="kickass-h3">Création de compte</h3>
                         </div>
 
                         <form methode="post" action="">
@@ -92,15 +92,19 @@ class Header extends Component {
                         ? 'flex'
                         : 'none'
                 }}>
-                    <div className="user-connect-form">
-                        <h3 className="kickass-h3">Connectez vous</h3>
+                <div className="user-connect-form">
+                      <div className="user-compte-titre">
+                        <h3 className="kickass-h3">Connexion</h3>
+                      </div>
 
                         <form methode="post" action="">
                             <input className="user-connect-input" type="mail" placeholder="Email"></input>
                             <input className="user-connect-input" type="password" placeholder="Mot de passe"></input>
+                            <p className="f-pwd">Mot de passe oublié ?</p>
                             <button className="user-compte-submit">
                                 <span className="user-compte-submit-span">Valider</span>
                             </button>
+                            <p className="p-inscription">Pas encore de compte ? Inscrivez-vous !</p>
                         </form>
 
                     </div>

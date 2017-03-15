@@ -7,6 +7,7 @@ import Projetsaleatoires from './Projetsaleatoires/Projetsaleatoires.js';
 import Partenaires from './Partenaires/Partenaires.js';
 import Footer from './Footer/Footer.js';
 import './Data.js';
+import {Router, Route, Link, browserHistory} from 'react-router';
 
 class App extends Component {
   render() {
@@ -15,13 +16,13 @@ class App extends Component {
 
 
       <div className="container-principal">
-        <Header></Header>
-        <Bandeau></Bandeau>
+        <Header />
+        <Bandeau />
         <div className="container">
-          <Projetsaleatoires></Projetsaleatoires>
+          <Projetsaleatoires />
         </div>
-        <Partenaires></Partenaires>
-        <Footer></Footer>
+        <Partenaires />
+        <Footer />
       </div>
 
 
