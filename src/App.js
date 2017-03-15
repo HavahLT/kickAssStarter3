@@ -1,35 +1,29 @@
-import React, { Component } from 'react';
-import './Reset.css';
-import './App.css';
-import Header from './Header/Header.js';
-import Bandeau from './Bandeau/Bandeau.js';
-import Projetsaleatoires from './Projetsaleatoires/Projetsaleatoires.js';
-import Partenaires from './Partenaires/Partenaires.js';
-import Footer from './Footer/Footer.js';
-import './Data.js';
-import {Router, Route, Link, browserHistory} from 'react-router';
+import React from 'react';
+import { Router, Route, browserHistory} from 'react-router';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
+//components
+import Partenaires from './Partenaires/Partenaires';
+import Home from './Home';
+
+//Routes
+class App extends React.Component {
 
 
-      <div className="container-principal">
-        <Header />
-        <Bandeau />
-        <div className="container">
-          <Projetsaleatoires />
-        </div>
-        <Partenaires />
-        <Footer />
-      </div>
+ render() {
+     return (
+       <Router history={browserHistory}>
+           <Route path="/" component={Home}/>
+           <Route path="Home-connected" component={Partenaires}/>
+           <Route path="create-a-project" component={Partenaires}/>
+           <Route path="all-projects" component={Partenaires}/>
+           <Route path="project" component={Partenaires}/>
+           <Route path="edit-project" component={Partenaires}/>
+           <Route path="profile" component={Partenaires}/>
+           <Route path="my-projects" component={Partenaires}/>
+       </Router>
+   );
+ }
 
-
-
-      </div>
-    );
-  }
 }
 
 export default App;
