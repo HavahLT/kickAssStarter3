@@ -13,13 +13,13 @@
 
 }
 .kickass-card {
-  height:310px;
-  width:22%;
   z-index: 1;
   border-radius:3px;
-  border:3px solid black;
-  margin-top:20px;
-  padding-bottom:7px;
+  height: 340px;
+  width: 220px;
+  border: 1px solid #C3C1C4;
+  margin-top: 20px;
+  padding-bottom: 7px;
 }
 
 .miniature-projet {
@@ -48,48 +48,37 @@
   text-align: right;
 }
 .bouton-style {
-  width: 22%;
-  height: 100px;
   font-family:Roboto,sans-serif;
   font-size:1em;
   background-color: #FFFFFF;
+  width: 200px;
+  height: 55px;
+  margin: 0 0 40px 0;
 }
+
 
 @media all and (max-device-width: 920px) {
 
-.Projetsaleatoires {
-  padding-top: 20px;
-  background-position: center;
-  background-size: cover;
-  width:100%;
-  margin:auto;
-}
+  .Projetsaleatoires {
+    padding-top: 20px;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    margin:auto;
+  }
 
-.container-card {
-  flex-direction: column;
-  align-items: center;
-}
+  .container-card {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.kickass-card {
-  align-items: center;
-  height:310px;
-  width:75%;
-  border-radius:3px;
-  padding-bottom:40px;
-  margin-bottom: 8px;
-}
+  .kickass-card {
+    align-items: center;
+  }
 
-.positionnement-bouton{
-  margin: 45px auto 10px auto;
-  text-align: center;
-}
+  .positionnement-bouton{
+    margin: 45px auto 10px auto;
+    text-align: center;
+  }
 
-.bouton-style {
-  margin:0 auto;
-  width: 35%;
-  height:50px;
-  font-family:Roboto,sans-serif;
-  font-size:1em;
-  background-color: #FFFFFF;
-}
 }

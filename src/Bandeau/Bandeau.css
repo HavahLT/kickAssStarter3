@@ -9,15 +9,12 @@
 
 .bandeauPresentation {
   height:130px;
-  width:40%;
+  width:430px;
   z-index: 1;
   border-radius:3px;
   margin-top: 50vh;
   margin-left: 12vh;
-  padding-bottom: 2.5vh;
-  padding-top:2.5vh;
-  padding-left: 2.5vh;
-  padding-right: 2.5vh;
+  padding:20px;
   text-align: left;
   background-color: rgba(57,166,255,0.9);
 
@@ -57,15 +54,12 @@ a:hover {color:rgb(250,166,230) ;}
 
   .bandeauPresentation {
     width:100%;
-    margin-left: 0vh;
-    padding-bottom: 2.5vh;
-    padding-top:2.5vh;
-    padding-left: 0;
-    padding-right: 0;
+    margin-left: 0;
     margin-bottom: 0;
   }
 
   .bandeauImage {
-    height :auto;
+    height:auto;
+
   }
 }
