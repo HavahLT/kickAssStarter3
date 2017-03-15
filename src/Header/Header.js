@@ -43,7 +43,10 @@ class Header extends Component {
                     </div>
                     <div className="kickass-search" id="k-search">
                         <i className="fa fa-search fa-flip-horizontal" aria-hidden="true"></i>
-                        <input type="text"></input>
+                        <form>
+                          <input type="text"></input>
+                          <button className="btn-go" type="submit">Go</button>
+                      </form>
                     </div>
                     <div className="kickass-flex kickass-sign-login" id="k-log">
                         <div className="kickass-sign" onClick={this.handleClick}>
@@ -65,7 +68,7 @@ class Header extends Component {
                 }}>
                     <div className="user-compte-form">
                         <div className="user-compte-titre">
-                            <h2 >Créer votre compte</h2>
+                            <h3 className="kickass-h3">Créer votre compte</h3>
                         </div>
 
                         <form methode="post" action="">
@@ -90,7 +93,7 @@ class Header extends Component {
                         : 'none'
                 }}>
                     <div className="user-connect-form">
-                        <h2 className="user-connect-titre">Connectez vous</h2>
+                        <h3 className="kickass-h3">Connectez vous</h3>
 
                         <form methode="post" action="">
                             <input className="user-connect-input" type="mail" placeholder="Email"></input>
