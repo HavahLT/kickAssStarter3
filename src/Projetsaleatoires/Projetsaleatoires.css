@@ -19,13 +19,13 @@
   border-radius:3px;
   border: 0.1em solid grey;
   margin-top: 8vh;
+  padding-bottom:7px;
 }
 
 .miniature-projet {
   width:100%;
   border-radius: 2px;
   margin-bottom: 2vh;
-
 }
 
 .container-detail-projet {
@@ -40,4 +40,18 @@
 
 .espace-icone {
   margin-left: 2vh;
+}
+
+.positionnement-bouton{
+  width:100%;
+  margin-top: 40px;
+  text-align: right;
+}
+.bouton-style {
+  width: 22%;
+  height: 35px;
+  font-family:Roboto,sans-serif;
+  font-size:1em;
+  background-color: #FFFFFF;
+
 }
