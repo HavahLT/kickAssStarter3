@@ -42,8 +42,8 @@ class Header extends Component {
                             <i className="fa fa-plus" aria-hidden="true"></i>Créer un projet</button>
                     </div>
                     <div className="kickass-search" id="k-search">
-                        <i className="fa fa-search fa-flip-horizontal" aria-hidden="true"></i>
                         <form>
+                          <i className="fa fa-search fa-flip-horizontal" aria-hidden="true"></i>
                           <input type="text"></input>
                           <button className="btn-go" type="submit">Go</button>
                       </form>
