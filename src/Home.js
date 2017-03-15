@@ -19,6 +19,7 @@ class Home extends Component {
         <Bandeau />
         <div className="container">
           <Projetsaleatoires />
+          <Partenaires />
         </div>
 
         <Footer />

@@ -1,9 +1,7 @@
 import React from 'react';
 import { Router, Route, browserHistory} from 'react-router';
-
-//components
 import Partenaires from './Partenaires/Partenaires';
-import Home from './Home';
+import Home from './Home.js';
 
 //Routes
 class App extends React.Component {
