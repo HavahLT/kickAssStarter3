@@ -77,6 +77,7 @@ class Header extends Component {
                             <input className="user-compte-input" type="mail" placeholder="Email"></input>
                             <input className="user-compte-input" type="password" placeholder="Mot de passe"></input>
                             <input className="user-compte-input" type="password" placeholder="Comfirmer mot de passe"></input>
+
                             <button className="user-compte-submit">
                                 <span className="user-compte-submit-span">Valider</span>
                             </button>
