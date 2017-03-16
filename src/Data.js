@@ -1,4 +1,4 @@
-var dataKickass = [
+/*var dataKickass = [
   {
     titreprojet:"Titre projet 1",
     auteur:"Auteur 1",
@@ -28,3 +28,4 @@ var dataKickass = [
     likes:20
   }
 ]
+*/

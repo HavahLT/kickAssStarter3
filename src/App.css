@@ -16,8 +16,9 @@
 .kickass-h1{
   font-family: 'Roboto', sans-serif;
   font-weight:900;
-  font-size: 40px;
+  font-size: 30px;
   color:#000000;
+  padding-top: 8px;
 }
 
 .kickass-h2{
