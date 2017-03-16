@@ -1,0 +1,89 @@
+.section-projet{
+  padding:150px 0 0 0;
+  justify-content: space-between;
+}
+
+.pprojet-img{
+  width:150px;
+  height:150px;
+}
+.kickass-flex{
+  display: flex;
+}
+.col-contributeur{
+  justify-content: space-around;
+  margin:20px 0;
+}
+
+.pprojet-avatar{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pp-button-like{
+  border:none;
+  background: red;
+  width:40px;
+  height: 40px;
+  color:#FFFFFF;
+  border-radius:2px;
+  margin:10px 0 0 0;
+  cursor: pointer;
+}
+
+.pp-button-like i{
+  color:#FFFFFF;
+}
+
+.pp-p-likes{
+  margin:30px 0 0 10px;
+}
+
+.pp-nom-projet{
+  font-size:3rem;
+  color:#39A6FF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.pp-les-boutons{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pp-btn-contribute, .pp-btn-edit{
+  border:none;
+  width:150px;
+  height:50px;
+  color:#FFFFFF;
+  cursor: pointer;
+}
+
+.pp-btn-contribute{
+background: #39A6FF;
+}
+
+.pp-btn-edit{
+
+}
+
+.pp-infos-projet{
+  padding:50px 0;
+}
+
+.pp-meilleurs-contr{
+  background: #EAE9E6;
+  padding:50px 0;
+}
+
+.pp-img-meill-contr{
+
+}
+
+.pp-info-img{
+  width:100px;
+  height:100px;
+  color:red;
+}

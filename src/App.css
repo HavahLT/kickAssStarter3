@@ -46,7 +46,9 @@
 .kickass-p{
   font-family: 'Roboto', sans-serif;
   color:#000000;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
 }
 
 .kickass-p-bold{

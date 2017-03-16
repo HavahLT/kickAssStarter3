@@ -74,3 +74,24 @@
 .label-form{
   margin:15px 0;
 }
+
+
+
+/* ========================= */
+
+.cp-row-projet{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cp-row-projet input, .cp-row-projet textarea{
+  width:500px;
+  border: 1px solid #89878A;
+  border-radius: 1px;
+  height:30px;
+  margin: 10px 0;
+}
+.cp-row-select{
+  display: flex;
+  justify-content: flex-end;
+}

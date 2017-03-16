@@ -17,7 +17,7 @@ class Pagecreateproject extends Component {
         </section>
 
         <section className="bloc-conseil">
-          <p className="conseil-intro">Trois <span className="p-blue">petits conseils</span> pour bien reussir son projet !</p>
+          <p className="conseil-intro">Trois <span className="p-blue">petits conseils</span> pour bien réussir son projet !</p>
           <div className="kickass-flex">
 
             <div className="conseil">
@@ -70,6 +70,47 @@ class Pagecreateproject extends Component {
                   </select>
                 </div>
                 </div>
+            </div>
+
+            <div className="btn-form">
+              <button className="kickass-btn" type="submit" name="button">Envoyer ma proposition</button>
+            </div>
+
+            </form>
+
+            <form className="">
+              <div className="">
+
+
+                <div className="cp-row-projet">
+                  <label className="label-form">Nom du projet</label>
+                  <input type="text" name="name" value=""></input>
+                </div>
+
+                <div className="cp-row-projet">
+                  <label className="label-form">Description</label>
+                  <textarea name="description" rows="8" cols="40"></textarea>
+                </div>
+
+                <div className="cp-row-projet">
+                  <label className="label-form">URL de votre image</label>
+                  <input type="text" name="url" value=""></input>
+                </div>
+
+                <div className="cp-row-projet">
+                  <label className="label-form">Combien voulez-vous collecter ?</label>
+
+                  <input type="text" name="name" value=""></input>
+
+                </div>
+                <div className="cp-row-projet">
+                  <select className="" name="">
+                    <option value="valeur1">€</option>
+                    <option value="valeur1">£</option>
+                    <option value="valeur1">$</option>
+                  </select>
+                </div>
+
             </div>
 
             <div className="btn-form">
