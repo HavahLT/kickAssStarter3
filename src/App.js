@@ -1,6 +1,6 @@
 import React from 'react';
 import { Router, Route, browserHistory} from 'react-router';
-import Partenaires from './Partenaires/Partenaires';
+import Pagecreateproject from './pages/Create-project/Create-project.js';
 import Home from './Home.js';
 
 //Routes
@@ -11,13 +11,13 @@ class App extends React.Component {
      return (
        <Router history={browserHistory}>
            <Route path="/" component={Home}/>
-           <Route path="Home-connected" component={Partenaires}/>
-           <Route path="create-a-project" component={Partenaires}/>
-           <Route path="all-projects" component={Partenaires}/>
-           <Route path="project" component={Partenaires}/>
-           <Route path="edit-project" component={Partenaires}/>
-           <Route path="profile" component={Partenaires}/>
-           <Route path="my-projects" component={Partenaires}/>
+           <Route path="Home-connected" component={Pagecreateproject}/>
+           <Route path="create-a-project" component={Pagecreateproject}/>
+           <Route path="all-projects" component={Pagecreateproject}/>
+           <Route path="project" component={Pagecreateproject}/>
+           <Route path="edit-project" component={Pagecreateproject}/>
+           <Route path="profile" component={Pagecreateproject}/>
+           <Route path="my-projects" component={Pagecreateproject}/>
        </Router>
    );
  }
