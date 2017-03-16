@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import './Header.css';
+import '../Header/Header.css';
 import './Headerconnecte.css';
 
-class Header extends Component {
+class Headerconnecte extends Component {
 
     constructor(props) {
         super(props);
@@ -30,7 +30,7 @@ class Header extends Component {
 
     render() {
         return (
-            <div className="Header">
+            <div className="Headerconnecte">
               <div className="kickass-menu-fixed">
                 <header className="kickass-flex kickass-menu">
 
@@ -117,4 +117,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default Headerconnecte;

@@ -1,0 +1,21 @@
+.kickass-flex{
+  display: flex;
+}
+.bloc-conseil{
+  background:#EAE9E6;
+  padding:150px 20px 100px 20px;
+}
+.conseil-intro{
+  text-align: center;
+  font-size:1.8rem;
+  font-weight: 300;
+  padding:20px 0 50px 0;
+}
+.conseil{
+  text-align: center;
+}
+.img-conseil{
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+}
