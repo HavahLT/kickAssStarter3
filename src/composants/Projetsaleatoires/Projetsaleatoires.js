@@ -21,16 +21,18 @@ class Projetsaleatoires extends Component {
                         <h4 className='kickass-h4 positionnement-element-card'>Auteur</h4>
                         <div className='container-notif'>
                             <div className='container-detail-projet'>
-                                <i className="fa fa-money positionnement-element-card" aria-hidden="true"></i>
-                                <p className="espace-icone">1330 euros</p>
+                                <i className="fa fa-money positionnement-element-card color-money" aria-hidden="true"></i>
+                                <p className="espace-icone color-money">1330 euros</p>
                             </div>
                             <div className='container-detail-projet'>
-                                <i className="fa fa-hourglass-half positionnement-element-card" aria-hidden="true"></i>
-                                <p className='espace-icone'>J -3</p>
+                                <i className="fa fa-hourglass-half positionnement-element-card color-sablier" aria-hidden="true"></i>
+                                <p className='espace-icone color-sablier'>J -3</p>
                             </div>
                             <div className='container-detail-projet'>
-                                <i className="fa fa-heart-o positionnement-element-card" aria-hidden="true"></i>
-                                <p className="espace-icone">19</p>
+                                <div className= 'effet-coeur'>
+                                <i className="fa fa-heart-o positionnement-element-card faa-pulse animated coeur animated-hover" aria-hidden="true"></i>
+                              </div>
+                                <p className="espace-icone color-like">19</p>
                             </div>
                         </div>
                     </div>
@@ -42,16 +44,16 @@ class Projetsaleatoires extends Component {
                         <h4 className='kickass-h4 positionnement-element-card'>Auteur</h4>
                         <div className='container-notif'>
                             <div className='container-detail-projet'>
-                                <i className="fa fa-money positionnement-element-card" aria-hidden="true"></i>
-                                <p className="espace-icone">1330 euros</p>
+                                <i className="fa fa-money positionnement-element-card color-money" aria-hidden="true"></i>
+                                <p className="espace-icone color-money">1330 euros</p>
                             </div>
                             <div className='container-detail-projet'>
-                                <i className="fa fa-hourglass-half positionnement-element-card" aria-hidden="true"></i>
-                                <p className='espace-icone'>J -3</p>
+                                <i className="fa fa-hourglass-half positionnement-element-card color-sablier" aria-hidden="true"></i>
+                                <p className='espace-icone color-sablier'>J -3</p>
                             </div>
                             <div className='container-detail-projet'>
-                                <i className="fa fa-heart-o positionnement-element-card" aria-hidden="true"></i>
-                                <p className="espace-icone">19</p>
+                                <i className="fa fa-heart-o positionnement-element-card coeur" aria-hidden="true"></i>
+                                <p className="espace-icone color-like">19</p>
                             </div>
                         </div>
                     </div>
@@ -59,22 +61,23 @@ class Projetsaleatoires extends Component {
                         <div className='container-image'>
                             <img className='miniature-projet' src={projet3} alt="imageprojet"/>
                         </div>
+
+                        <div className='container-projet'>
                         <h3 className='kickass-h3 positionnement-element-card'>Titre Projet 1</h3>
                         <h4 className='kickass-h4 positionnement-element-card'>Auteur</h4>
-                        <div className='container-notif'>
                             <div className='container-detail-projet'>
-                                <i className="fa fa-money positionnement-element-card" aria-hidden="true"></i>
-                                <p className="espace-icone">1330 euros</p>
+                                <i className="fa fa-money positionnement-element-card color-money" aria-hidden="true"></i>
+                                <p className="espace-icone color-money">1330 euros</p>
                             </div>
                             <div className='container-detail-projet'>
-                                <i className="fa fa-hourglass-half positionnement-element-card" aria-hidden="true"></i>
-                                <p className='espace-icone'>J -3</p>
+                                <i className="fa fa-hourglass-half positionnement-element-card color-sablier" aria-hidden="true"></i>
+                                <p className='espace-icone color-sablier'>J -3</p>
                             </div>
                             <div className='container-detail-projet'>
-                                <i className="fa fa-heart-o positionnement-element-card" aria-hidden="true"></i>
-                                <p className="espace-icone">19</p>
+                                <i className="fa fa-heart-o positionnement-element-card coeur" aria-hidden="true"></i>
+                                <p className="espace-icone color-like">19</p>
                             </div>
-                        </div>
+                      </div>
                     </div>
                     <div className='kickass-card'>
                         <div className='container-image'>
@@ -82,24 +85,24 @@ class Projetsaleatoires extends Component {
                         </div>
                         <h3 className='kickass-h3 positionnement-element-card'>Titre Projet 1</h3>
                         <h4 className='kickass-h4 positionnement-element-card'>Auteur</h4>
-                        <div className='container-notif'>
+                        <div className='container-projet'>
                             <div className='container-detail-projet'>
-                                <i className="fa fa-money positionnement-element-card" aria-hidden="true"></i>
-                                <p className="espace-icone">1330 euros</p>
+                                <i className="fa fa-money positionnement-element-card color-money" aria-hidden="true"></i>
+                                <p className="espace-icone color-money">1330 euros</p>
                             </div>
                             <div className='container-detail-projet'>
-                                <i className="fa fa-hourglass-half positionnement-element-card" aria-hidden="true"></i>
-                                <p className='espace-icone'>J -3</p>
+                                <i className="fa fa-hourglass-half positionnement-element-card color-sablier" aria-hidden="true"></i>
+                                <p className='espace-icone color-sablier'>J -3</p>
                             </div>
                             <div className='container-detail-projet'>
-                                <i className="fa fa-heart-o positionnement-element-card" aria-hidden="true"></i>
-                                <p className="espace-icone">19</p>
+                                <i className="fa fa-heart-o positionnement-element-card coeur" aria-hidden="true"></i>
+                                <p className="espace-icone color-like">19</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="positionnement-bouton">
-                <button className="bouton-style">Tous les projets</button>
+                <button className="kickass-btn">Tous les projets</button>
               </div>
             </div>
         );
