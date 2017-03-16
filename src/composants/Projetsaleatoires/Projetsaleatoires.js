@@ -17,8 +17,8 @@ class Projetsaleatoires extends Component {
                         <div className='container-image'>
                             <img className='miniature-projet' src={projet1} alt="imageprojet"/>
                         </div>
-                        <h3 className='kickass-h3 positionnement-element-card'>Titre Projet 1</h3>
-                        <h4 className='kickass-h4 positionnement-element-card'>Auteur</h4>
+                        <h3 className=' titre-projet kickass-h3 positionnement-element-card'>Goulash Disco</h3>
+                        <h4 className='kickass-auteur positionnement-element-card'>Yves Taquet</h4>
                         <div className='container-notif'>
                             <div className='container-detail-projet'>
                                 <i className="fa fa-money positionnement-element-card color-money" aria-hidden="true"></i>
@@ -29,7 +29,7 @@ class Projetsaleatoires extends Component {
                                 <p className='espace-icone color-sablier'>J -3</p>
                             </div>
                             <div className='container-detail-projet'>
-                                <div className= 'effet-coeur'>
+                                <div className='effet-coeur'>
                                 <i className="fa fa-heart-o positionnement-element-card faa-pulse animated coeur animated-hover" aria-hidden="true"></i>
                               </div>
                                 <p className="espace-icone color-like">19</p>
@@ -40,8 +40,8 @@ class Projetsaleatoires extends Component {
                         <div className='container-image'>
                             <img className='miniature-projet' src={projet2} alt="imageprojet"/>
                         </div>
-                        <h3 className='kickass-h3 positionnement-element-card'>Titre Projet 1</h3>
-                        <h4 className='kickass-h4 positionnement-element-card'>Auteur</h4>
+                        <h3 className='titre-projet kickass-h3 positionnement-element-card'>Ink is my blood</h3>
+                        <h4 className='kickass-auteur positionnement-element-card'>EncreSympathique</h4>
                         <div className='container-notif'>
                             <div className='container-detail-projet'>
                                 <i className="fa fa-money positionnement-element-card color-money" aria-hidden="true"></i>
@@ -63,8 +63,8 @@ class Projetsaleatoires extends Component {
                         </div>
 
                         <div className='container-projet'>
-                        <h3 className='kickass-h3 positionnement-element-card'>Titre Projet 1</h3>
-                        <h4 className='kickass-h4 positionnement-element-card'>Auteur</h4>
+                        <h3 className='titre-projet kickass-h3 positionnement-element-card'>Dancing Devils</h3>
+                        <h4 className='kickass-auteur positionnement-element-card'>Melody Battentier</h4>
                             <div className='container-detail-projet'>
                                 <i className="fa fa-money positionnement-element-card color-money" aria-hidden="true"></i>
                                 <p className="espace-icone color-money">1330 euros</p>
@@ -83,8 +83,8 @@ class Projetsaleatoires extends Component {
                         <div className='container-image'>
                             <img className='miniature-projet' src={projet4} alt="imageprojet"/>
                         </div>
-                        <h3 className='kickass-h3 positionnement-element-card'>Titre Projet 1</h3>
-                        <h4 className='kickass-h4 positionnement-element-card'>Auteur</h4>
+                        <h3 className='titre-projet kickass-h3 positionnement-element-card'>Awas</h3>
+                        <h4 className='kickass-auteur positionnement-element-card'>Martignoni</h4>
                         <div className='container-projet'>
                             <div className='container-detail-projet'>
                                 <i className="fa fa-money positionnement-element-card color-money" aria-hidden="true"></i>
