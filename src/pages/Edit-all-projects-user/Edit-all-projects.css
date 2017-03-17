@@ -1,0 +1,41 @@
+.allp-bloc{
+  padding:150px 0 0 0;
+}
+
+.allp-row-projet{
+  justify-content: space-between;
+  margin:40px 0;
+}
+
+.allp-single-projet{
+  display: flex;
+  justify-content: space-between;
+}
+
+.allp-single-projet img{
+  width:100px;
+  height:100px;
+}
+
+.allp-infos-projet{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.allp-btn-edit, .allp-btn-voir{
+  width:100px;
+  height:40px;
+  border:none;
+  border-radius: 2px;
+  color:#FFFFFF;
+  cursor: pointer;
+}
+
+.allp-btn-edit{
+  background: gray;
+}
+
+.allp-btn-voir{
+  background: #39A6FF;
+}

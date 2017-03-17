@@ -103,7 +103,7 @@ class Pagecreateproject extends Component {
                   <input type="text" name="name" value=""></input>
 
                 </div>
-                <div className="cp-row-projet">
+                <div className="cp-row-select">
                   <select className="" name="">
                     <option value="valeur1">€</option>
                     <option value="valeur1">£</option>

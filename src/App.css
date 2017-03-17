@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
 
-*, p, ul li, label, input{
+*, p, ul li, label, input, a{
   font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:#FFFFFF;
 }
 
 .container-principal{
