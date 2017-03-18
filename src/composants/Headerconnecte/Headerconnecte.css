@@ -1,0 +1,64 @@
+.container-flex {
+  display: flex;
+}
+
+.border {
+  border-bottom: 1px solid #C3C1C4;
+}
+
+.menu-deroulant{
+height: 60px;
+z-index:8000;
+top:30px;
+right: 0;
+position: absolute;
+font-size: 14px;
+background: #FFFFFF;
+}
+
+
+.container-connecte {
+  font-size: 16px;
+  background: #FFFFFF;
+  padding: 35px 10px 0px 10px;
+  justify-content: flex-end;
+}
+
+.container-connecte:hover {
+      background: #39A6FF;
+      color: #FFFFFF;
+      cursor:pointer;
+    }
+
+.container-menu-2 {
+  font-size: 16px;
+  border-left: 1px solid #C3C1C4;
+  background: #FFFFFF;
+  padding: 35px 15px 10px 31px;
+}
+
+.container-menu-2:hover{
+      background: #39A6FF;
+      color: #FFFFFF;
+      cursor:pointer;
+    }
+
+.container-menu-2:active{
+  background: #39A6FF;
+  color: #FFFFFF;
+  cursor:pointer;
+        }
+
+.container-menu-3 {
+  font-size: 16px;
+  border-left: 1px solid #C3C1C4;
+  color: #FFFFFF;
+  background: #39A6FF;
+  padding: 35px 15px 10px 30px;
+}
+
+.container-menu-3:hover {
+      background: #FFFFFF;
+      color: #000000;
+      cursor:pointer;
+}
