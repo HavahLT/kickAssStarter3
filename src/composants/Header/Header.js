@@ -1,32 +1,47 @@
 import React, {Component} from 'react';
 import './Header.css';
-import Pagecreateproject from '../../pages/Create-project/Create-project.js';
+import '../../pages/Create-project/Create-project.css';
+import Footer from '../../composants/Footer/Footer.js';
+import conseil1 from '../../pages/Create-project/img/img-conseil1.jpg';
+import conseil2 from '../../pages/Create-project/img/img-conseil2.jpg';
+import conseil3 from '../../pages/Create-project/img/img-conseil3.jpg';
 
 class Header extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            isToggleOn: false
+            toggleSinscrire: false
         };
-        this.handleClick = this.handleClick.bind(this);
+        this.sinscrireClick = this.sinscrireClick.bind(this);
 
         this.state = {
-            isToggleOnn: false
+            toggleCreeCompte: false
         };
-        this.handleClick2 = this.handleClick2.bind(this);
+        this.creerCompteClick = this.creerCompteClick.bind(this);
 
+        this.state = {
+            toggleCreeProject: false
+        };
+        this.creeProjectClick = this.creeProjectClick.bind(this);
     }
-    handleClick() {
+
+    sinscrireClick() {
         this.setState(prevState => ({
-            isToggleOn: !prevState.isToggleOn
+            toggleSinscrire: !prevState.toggleSinscrire
         }));
     }
-    handleClick2() {
+    creerCompteClick() {
         this.setState(prevState => ({
-            isToggleOnn: !prevState.isToggleOnn
+            toggleCreeCompte: !prevState.toggleCreeCompte
         }));
     }
+    creeProjectClick() {
+        this.setState(prevState => ({
+            toggleCreeProject: !prevState.toggleCreeProject
+        }));
+    }
+
 
     render() {
         return (
@@ -38,8 +53,8 @@ class Header extends Component {
                         <i className="fa fa-hourglass-half" aria-hidden="true"></i>
                         <h1 className="kickass-h1">KickAssStarter</h1>
                     </div>
-                    <div className="kickass-menu-btn" id="k-btn">
-                        <a href={Pagecreateproject}><button className="kickass-btn" type="button" name="button">
+                    <div className="kickass-menu-btn" id="k-btn" onClick={this.creeProjectClick}>
+                        <a><button className="kickass-btn" type="button" name="button">
                             <i className="fa fa-plus" aria-hidden="true"></i>Créer un projet</button></a>
                     </div>
                     <div className="kickass-search" id="k-search">
@@ -50,10 +65,10 @@ class Header extends Component {
                       </form>
                     </div>
                     <div className="kickass-flex kickass-sign-login" id="k-log">
-                        <div className="kickass-sign" onClick={this.handleClick}>
+                        <div className="kickass-sign" onClick={this.sinscrireClick}>
                             <p>S'inscrire</p>
                         </div>
-                        <div className="kickass-login" onClick={this.handleClick2}>
+                        <div className="kickass-login" onClick={this.creerCompteClick}>
                             <p>Se connecter</p>
                         </div>
                     </div>
@@ -63,7 +78,7 @@ class Header extends Component {
                 {/* modal creer compte */}
 
                 <div className="kick-compte-container" style={{
-                    display: this.state.isToggleOn
+                    display: this.state.toggleSinscrire
                         ? 'flex'
                         : 'none'
                 }}>
@@ -90,7 +105,7 @@ class Header extends Component {
                 {/* modal connection */}
 
                 <div className="kick-connect-container" style={{
-                    display: this.state.isToggleOnn
+                    display: this.state.toggleCreeCompte
                         ? 'flex'
                         : 'none'
                 }}>
@@ -110,6 +125,130 @@ class Header extends Component {
                         </form>
 
                     </div>
+                </div>
+
+
+{/* Attention ce code dessus est copier par la page CreatProjecJs pour activer la function onClick ici */}
+
+{/* Creer un compte */}
+
+                <div className="Pagecreateproject" style={{
+                    display: this.state.toggleCreeProject
+                        ? 'block'
+                        : 'none'
+                }}>
+
+
+                  <section className="bloc-conseil">
+                    <p className="conseil-intro">Trois <span className="p-blue">petits conseils</span> pour bien réussir son projet !</p>
+                    <div className="kickass-flex">
+
+                      <div className="conseil">
+                        <img className='img-conseil' src={conseil1} alt="imageprojet"/>
+                        <h4 className="conseil-h4">Conseil n°1</h4>
+                        <p className="p-conseil">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                      </div>
+
+                      <div className="conseil">
+                        <img className='img-conseil' src={conseil2} alt="imageprojet"/>
+                        <h4 className="conseil-h4">Conseil °2</h4>
+                        <p className="p-conseil">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                      </div>
+
+                      <div className="conseil">
+                        <img className='img-conseil' src={conseil3} alt="imageprojet"/>
+                        <h4 className="conseil-h4">Conseil n°3</h4>
+                        <p className="p-conseil">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                      </div>
+
+                    </div>
+                  </section>
+
+                  <section className="bloc-formulaire">
+
+                    <div className="container">
+
+                      <h2 className="kickass-h2">Votre projet</h2>
+                      <p className="conseil-form">Tous les champs sont <span className="p-blue">obligatoires.</span> Ne prenez pas cette étape à la légère !</p>
+
+                      <form className="">
+                        <div className="form-creation-projet">
+                          <div className="col-label">
+                            <label className="label-form">Nom du projet</label>
+                            <label className="label-form">Description</label>
+                            <label className="label-form">URL de votre image</label>
+                            <label className="label-form">Combien voulez-vous collecter ?</label>
+                          </div>
+
+                          <div className="col-input">
+                            <input type="text" name="name" value=""></input>
+                            <textarea name="description" rows="8" cols="40"></textarea>
+                            <input type="text" name="url" value=""></input>
+                            <div>
+                            <input type="text" name="name" value=""></input>
+                            <select className="" name="">
+                              <option value="valeur1">€</option>
+                              <option value="valeur1">£</option>
+                              <option value="valeur1">$</option>
+                            </select>
+                          </div>
+                          </div>
+                      </div>
+
+                      <div className="btn-form">
+                        <button className="kickass-btn" type="submit" name="button">Envoyer ma proposition</button>
+                      </div>
+
+                      </form>
+
+                      <form className="">
+                        <div className="">
+
+
+                          <div className="cp-row-projet">
+                            <label className="label-form">Nom du projet</label>
+                            <input type="text" name="name" value=""></input>
+                          </div>
+
+                          <div className="cp-row-projet">
+                            <label className="label-form">Description</label>
+                            <textarea name="description" rows="8" cols="40"></textarea>
+                          </div>
+
+                          <div className="cp-row-projet">
+                            <label className="label-form">URL de votre image</label>
+                            <input type="text" name="url" value=""></input>
+                          </div>
+
+                          <div className="cp-row-projet">
+                            <label className="label-form">Combien voulez-vous collecter ?</label>
+
+                            <input type="text" name="name" value=""></input>
+
+                          </div>
+                          <div className="cp-row-select">
+                            <select className="" name="">
+                              <option value="valeur1">€</option>
+                              <option value="valeur1">£</option>
+                              <option value="valeur1">$</option>
+                            </select>
+                          </div>
+
+                      </div>
+
+                      <div className="btn-form">
+                        <button className="kickass-btn" type="submit" name="button">Envoyer ma proposition</button>
+                      </div>
+
+                      </form>
+
+                    </div>
+
+                  </section>
+                  <section >
+                    <Footer/>
+                  </section>
+
                 </div>
 
             </div>

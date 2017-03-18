@@ -7,6 +7,10 @@ import conseil1 from './img/img-conseil1.jpg';
 import conseil2 from './img/img-conseil2.jpg';
 import conseil3 from './img/img-conseil3.jpg';
 
+
+// Attention une copie de ce page est transferer a la page HeaderJs pour activer function Onclick sur ce page
+
+
 class Pagecreateproject extends Component {
   render() {
     return (
