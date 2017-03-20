@@ -41,7 +41,9 @@ class Header extends Component {
 
                     <div className="kickass-logo" id="k-logo">
                         <i className="fa fa-hourglass-half" aria-hidden="true"></i>
+                        <Link to={`/`}>
                         <h1 className="kickass-h1">KickAssStarter</h1>
+                      </Link>
                     </div>
 
                     <div className="kickass-menu-btn" id="k-btn">
