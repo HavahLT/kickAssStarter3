@@ -43,7 +43,7 @@ class Headerconnecte extends Component {
                         </div>
                         <div className="kickass-menu-btn" id="k-btn">
                             <button className="kickass-btn" type="button" name="button">
-                                <i className="fa fa-plus" aria-hidden="true"></i>Créer un projet</button>
+                                <i className="fa fa-plus" aria-hidden="true"></i>Crée ton projet !</button>
                         </div>
                         <div className="kickass-search" id="k-search">
                             <form>
