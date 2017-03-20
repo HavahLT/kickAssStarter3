@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './Header.css';
 import Pagecreateproject from '../../pages/Create-project/Create-project.js';
+import {Link} from 'react-router';
+
 
 class Header extends Component {
 
@@ -39,8 +41,10 @@ class Header extends Component {
                         <h1 className="kickass-h1">KickAssStarter</h1>
                     </div>
                     <div className="kickass-menu-btn" id="k-btn">
-                        <a href={Pagecreateproject}><button className="kickass-btn" type="button" name="button">
-                            <i className="fa fa-plus" aria-hidden="true"></i>Créer un projet</button></a>
+                      <Link to={`/create-project`}>
+                          <button className="kickass-btn" type="button" name="button">
+                            <i className="fa fa-plus" aria-hidden="true"></i>Créer un projet</button></Link>
+
                     </div>
                     <div className="kickass-search" id="k-search">
                         <form>

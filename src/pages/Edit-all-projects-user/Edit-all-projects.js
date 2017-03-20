@@ -29,8 +29,8 @@ class EditAllProjects extends Component {
               <img src={imgProjet} />
               <div className="allp-infos-projet">
                 <h3 className="kickass-h3">Nom du projet</h3>
-                <button>Editer le projet</button>
-                <button>Voir le projet</button>
+                <button className="allp-btn-edit">Editer le projet</button>
+                <button className="allp-btn-voir">Voir le projet</button>
               </div>
             </div>
 
@@ -38,8 +38,8 @@ class EditAllProjects extends Component {
               <img src={imgProjet} />
               <div className="allp-infos-projet">
                 <h3 className="kickass-h3">Nom du projet</h3>
-                <button>Editer le projet</button>
-                <button>Voir le projet</button>
+                <button className="allp-btn-edit">Editer le projet</button>
+                <button className="allp-btn-voir">Voir le projet</button>
               </div>
             </div>
 
@@ -50,8 +50,8 @@ class EditAllProjects extends Component {
               <img src={imgProjet}  />
               <div className="allp-infos-projet">
                 <h3 className="kickass-h3">Nom du projet</h3>
-                <button>Editer le projet</button>
-                <button>Voir le projet</button>
+                <button className="allp-btn-edit">Editer le projet</button>
+                <button className="allp-btn-voir">Voir le projet</button>
               </div>
             </div>
 
@@ -59,8 +59,8 @@ class EditAllProjects extends Component {
               <img src={imgProjet}  />
               <div className="allp-infos-projet">
                 <h3 className="kickass-h3">Nom du projet</h3>
-                <button>Editer le projet</button>
-                <button>Voir le projet</button>
+                <button className="allp-btn-edit">Editer le projet</button>
+                <button className="allp-btn-voir">Voir le projet</button>
               </div>
             </div>
 
@@ -68,8 +68,8 @@ class EditAllProjects extends Component {
               <img src={imgProjet}  />
               <div className="allp-infos-projet">
                 <h3 className="kickass-h3">Nom du projet</h3>
-                <button>Editer le projet</button>
-                <button>Voir le projet</button>
+                <button className="allp-btn-edit">Editer le projet</button>
+                <button className="allp-btn-voir">Voir le projet</button>
               </div>
             </div>
 
@@ -80,8 +80,8 @@ class EditAllProjects extends Component {
               <img src={imgProjet}  />
               <div className="allp-infos-projet">
                 <h3 className="kickass-h3">Nom du projet</h3>
-                <button>Editer le projet</button>
-                <button>Voir le projet</button>
+                <button className="allp-btn-edit">Editer le projet</button>
+                <button className="allp-btn-voir">Voir le projet</button>
               </div>
             </div>
 
@@ -89,8 +89,8 @@ class EditAllProjects extends Component {
               <img src={imgProjet}  />
               <div className="allp-infos-projet">
                 <h3 className="kickass-h3">Nom du projet</h3>
-                <button>Editer le projet</button>
-                <button>Voir le projet</button>
+                <button className="allp-btn-edit">Editer le projet</button>
+                <button className="allp-btn-voir">Voir le projet</button>
               </div>
             </div>
 
@@ -98,8 +98,8 @@ class EditAllProjects extends Component {
               <img src={imgProjet}  />
               <div className="allp-infos-projet">
                 <h3 className="kickass-h3">Nom du projet</h3>
-                <button>Editer le projet</button>
-                <button>Voir le projet</button>
+                <button className="allp-btn-edit">Editer le projet</button>
+                <button className="allp-btn-voir">Voir le projet</button>
               </div>
             </div>
 

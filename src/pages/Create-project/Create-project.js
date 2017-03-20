@@ -48,35 +48,7 @@ class Pagecreateproject extends Component {
             <h2 className="kickass-h2">Votre projet</h2>
             <p className="conseil-form">Tous les champs sont <span className="p-blue">obligatoires.</span> Ne prenez pas cette étape à la légère !</p>
 
-            <form className="">
-              <div className="form-creation-projet">
-                <div className="col-label">
-                  <label className="label-form">Nom du projet</label>
-                  <label className="label-form">Description</label>
-                  <label className="label-form">URL de votre image</label>
-                  <label className="label-form">Combien voulez-vous collecter ?</label>
-                </div>
 
-                <div className="col-input">
-                  <input type="text" name="name" value=""></input>
-                  <textarea name="description" rows="8" cols="40"></textarea>
-                  <input type="text" name="url" value=""></input>
-                  <div>
-                  <input type="text" name="name" value=""></input>
-                  <select className="" name="">
-                    <option value="valeur1">€</option>
-                    <option value="valeur1">£</option>
-                    <option value="valeur1">$</option>
-                  </select>
-                </div>
-                </div>
-            </div>
-
-            <div className="btn-form">
-              <button className="kickass-btn" type="submit" name="button">Envoyer ma proposition</button>
-            </div>
-
-            </form>
 
             <form className="">
               <div className="">
