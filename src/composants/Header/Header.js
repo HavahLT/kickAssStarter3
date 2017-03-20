@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './Header.css';
-<<<<<<< HEAD
 import Pagecreateproject from '../../pages/Create-project/Create-project.js';
 import {Link} from 'react-router';
 import Footer from '../../composants/Footer/Footer.js';
