@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import './Header.css';
+<<<<<<< HEAD
 import Pagecreateproject from '../../pages/Create-project/Create-project.js';
 import {Link} from 'react-router';
+import Footer from '../../composants/Footer/Footer.js';
 
 
 class Header extends Component {
@@ -9,24 +11,26 @@ class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isToggleOn: false
+            toggleSinscrire: false
         };
-        this.handleClick = this.handleClick.bind(this);
+        this.sinscrireClick = this.sinscrireClick.bind(this);
 
         this.state = {
-            isToggleOnn: false
+            toggleCreeCompte: false
         };
-        this.handleClick2 = this.handleClick2.bind(this);
+        this.creerCompteClick = this.creerCompteClick.bind(this);
+
 
     }
-    handleClick() {
+
+    sinscrireClick() {
         this.setState(prevState => ({
-            isToggleOn: !prevState.isToggleOn
+            toggleSinscrire: !prevState.toggleSinscrire
         }));
     }
-    handleClick2() {
+    creerCompteClick() {
         this.setState(prevState => ({
-            isToggleOnn: !prevState.isToggleOnn
+            toggleCreeCompte: !prevState.toggleCreeCompte
         }));
     }
 
@@ -40,10 +44,13 @@ class Header extends Component {
                         <i className="fa fa-hourglass-half" aria-hidden="true"></i>
                         <h1 className="kickass-h1">KickAssStarter</h1>
                     </div>
+
                     <div className="kickass-menu-btn" id="k-btn">
                       <Link to={`/create-project`}>
                           <button className="kickass-btn" type="button" name="button">
                             <i className="fa fa-plus" aria-hidden="true"></i>Créer un projet</button></Link>
+
+
 
                     </div>
                     <div className="kickass-search" id="k-search">
@@ -54,10 +61,10 @@ class Header extends Component {
                       </form>
                     </div>
                     <div className="kickass-flex kickass-sign-login" id="k-log">
-                        <div className="kickass-sign" onClick={this.handleClick}>
+                        <div className="kickass-sign" onClick={this.sinscrireClick}>
                             <p>S'inscrire</p>
                         </div>
-                        <div className="kickass-login" onClick={this.handleClick2}>
+                        <div className="kickass-login" onClick={this.creerCompteClick}>
                             <p>Se connecter</p>
                         </div>
                     </div>
@@ -67,7 +74,7 @@ class Header extends Component {
                 {/* modal creer compte */}
 
                 <div className="kick-compte-container" style={{
-                    display: this.state.isToggleOn
+                    display: this.state.toggleSinscrire
                         ? 'flex'
                         : 'none'
                 }}>
@@ -94,7 +101,7 @@ class Header extends Component {
                 {/* modal connection */}
 
                 <div className="kick-connect-container" style={{
-                    display: this.state.isToggleOnn
+                    display: this.state.toggleCreeCompte
                         ? 'flex'
                         : 'none'
                 }}>
