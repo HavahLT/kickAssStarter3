@@ -47,7 +47,7 @@ class Header extends Component {
                     <div className="kickass-menu-btn" id="k-btn">
                       <Link to={`/create-project`}>
                           <button className="kickass-btn" type="button" name="button">
-                            <i className="fa fa-plus" aria-hidden="true"></i>Créer un projet</button></Link>
+                            <i className="fa fa-plus" aria-hidden="true"></i>Crée ton projet !</button></Link>
 
 
 
@@ -61,10 +61,10 @@ class Header extends Component {
                     </div>
                     <div className="kickass-flex kickass-sign-login" id="k-log">
                         <div className="kickass-sign" onClick={this.sinscrireClick}>
-                            <p>S'inscrire</p>
+                            <p>Tu t'inscris ?</p>
                         </div>
                         <div className="kickass-login" onClick={this.creerCompteClick}>
-                            <p>Se connecter</p>
+                            <p>Connecte-toi ici !</p>
                         </div>
                     </div>
 
